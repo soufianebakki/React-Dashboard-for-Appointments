@@ -37,16 +37,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install --legacy-peer-deps && react-scripts build",
-    "install": "npm install --legacy-peer-deps",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "preinstall": "npx npm-force-resolutions",
-    "ajv": "8.17.1",
-    "ajv-keywords": "5.1.0"
-  }, 
+    "preinstall": "npx npm-force-resolutions"
+  },
   "resolutions": {
     "react-error-overlay": "6.0.9"
   },
